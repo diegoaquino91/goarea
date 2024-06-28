@@ -1,5 +1,11 @@
 package goarea
 
+import (
+	"io"
+	"net/http"
+	"regexp"
+)
+
 // Titulo obtem o título de uma pagina html
 func Titulo(urls ...string) <-chan string {
 	c := make(chan string)
