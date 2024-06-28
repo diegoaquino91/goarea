@@ -1,4 +1,4 @@
-package html
+package goarea
 
 // Titulo obtem o título de uma pagina html
 func Titulo(urls ...string) <-chan string {
