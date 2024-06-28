@@ -1,6 +1,7 @@
 package goarea
 
 import (
+	"fmt"
 	"io"
 	"net/http"
 	"regexp"
